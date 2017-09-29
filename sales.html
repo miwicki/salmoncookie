@@ -8,10 +8,29 @@
   <body>
     <h1>Pat's Fishy Cookies</h1>
 
+    <form id="chat-form">
+    <fieldset>
+      <legend>Chat submission form</legend>
+
+      <label for="who">Who: </label>
+      <input name="who" type="text" />
+
+      <label for="says">Comment: </label>
+      <input name="says" type="text" size="50" />
+
+      <button type="submit">Create new comment!</button>
+    </fieldset>
+  </form>
+
+  <button id="clear-chat-list">Clear all comments!</button>
+
+  <ul id="chat-list"></ul>
+
+
     <table id='stores'>
 
     </table>
-  
+
     <script type="text/javascript" src="app.js">
     </script>
   </body>
